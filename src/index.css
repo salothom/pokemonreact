@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pokemons{
+  width: 25%;
+  float: left;
+
+}
+.pokeBox{
+  padding:5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.button{
+  padding: 15px;
+  background-color: aqua;
+  float: left;
+  border-radius: 20%;
+}
