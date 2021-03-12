@@ -1,10 +1,12 @@
 body {
   margin: 0;
+  padding: 15px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FAF3DD;
 }
 
 code {
@@ -12,20 +14,56 @@ code {
     monospace;
 }
 
+.tooBigHaHa{
+  width:500px;
+  height:500px;
+}
 .pokemons{
   width: 25%;
-  float: left;
+  margin:auto;
+
+  /* float: left; */
+  /* flex-basis:  auto; */
 
 }
 .pokeBox{
+  justify-content: center;
+  /* width: 90%; */
   padding:5px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.pokeBox:hover{
+  background-color: #c8d5b9;
+}
 
 .button{
+  justify-content: center;
+
   padding: 15px;
-  background-color: aqua;
+  width: 100px;
+  background-color: #c8d5b9;
   float: left;
   border-radius: 20%;
+  margin: 10px;
+  display: flex; 
+}
+
+.button:hover{
+  background-color: #8fc0a9;
+}
+
+.buttonHolder{
+  position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+
+.container {
+  
+  /* justify-content: space-between; */
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  height: 85px;
+  display: flex; /* or inline-flex */
 }
